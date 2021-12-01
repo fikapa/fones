@@ -32,15 +32,15 @@ function setup() {
   textAlign(LEFT);
 
 
-  mic = new p5.AudioIn();
-  mic.start();
-  reverb = new p5.Reverb();
-  delay = new p5.Delay() ;
-  mic.connect(reverb);
-  amp = new p5.Amplitude();
-  reverb.set(5, 0);
-  delay.amp(8);
-  amp.setInput(mic);
+ // mic = new p5.AudioIn();
+ // mic.start();
+ // reverb = new p5.Reverb();
+ // delay = new p5.Delay() ;
+  // mic.connect(reverb);
+  //amp = new p5.Amplitude();
+  //reverb.set(5, 0);
+  //delay.amp(8);
+  //amp.setInput(mic);
   //background(255);
 
 
